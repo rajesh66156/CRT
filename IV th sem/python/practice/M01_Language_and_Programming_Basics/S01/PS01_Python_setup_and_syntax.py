@@ -1,0 +1,12 @@
+import numpy as np
+arr = np.array([10,20,30,40,50,60,70,80,90])
+print("Array elements are:",arr)
+print(np.max(arr))
+print(np.min(arr))
+print(np.mean(arr))
+print(np.sum(arr))
+print("Even numbers are:",np.arange(2,10,2))
+print("Odd numbers are:",np.arange(1,20,2))
+n=int(input("enter the size:"))
+ele = list(map(int,input("enter elements:").split()))
+print("Array elements")
